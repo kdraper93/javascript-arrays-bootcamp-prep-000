@@ -44,3 +44,9 @@ function destructivelyRemoveElementFromEndOfArray (chocolateBars, element) {
   chocolateBars.pop(element)
   return chocolateBars
 }
+
+function removeElementFromEndOfArray (chocolateBars, element) {
+  chocolateBars = chocolateBars.slice(0,
+  chocolateBars.length-1)
+  return chocolateBars
+}
